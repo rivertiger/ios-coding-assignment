@@ -38,8 +38,8 @@ Final output will look similar to the following image
 
 
 # Evaluation
-Clean and readable code
-Knowledge of MVC, delegation, UI and navigation, fetching and parsing JSON data, git and dependency management
+- Clean and readable code
+- Knowledge of MVC, delegation, UI and navigation, fetching and parsing JSON data, git and dependency management
 
 
 
