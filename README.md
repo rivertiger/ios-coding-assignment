@@ -25,6 +25,8 @@ Please use the latitude and longitude of the following cities to fetch temperatu
 | Dallas | 32.78 | -96.81 |
 | Miami | 25.77 | -80.19 |
 
+Use the images included in the `assets` folder for a visual indicator of the weather conditions. Any precipitation `>0.0` and `<1.0` should be considered *light rain*. Precipitation `>=1.0` should be considered *heavy rain*. No precipitation is *sunny*.
+
 Final output will look similar to the following image
 
 ![weather app drawio](https://user-images.githubusercontent.com/1957407/206615131-5afcbb18-1d7e-4b38-b9f1-7f4b1333defd.png)
