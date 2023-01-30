@@ -4,11 +4,11 @@ This is a coding challenge for iOS developers.
 
 # Prerequisites
 Candidate should have Xcode and Git installed on their machine.
-
+Candidate should download and install [SF Symbols](https://developer.apple.com/sf-symbols/).
 
 # Step 1
 Create a new iOS Application "Weather App"
- * For the UI, you can use these mechanisms: Storyboards/XIBs, straight code, or SwifUI.
+ * For the UI, you can use these mechanisms: Storyboards/XIBs, straight code, or SwiftUI.
  * Use the Model-View-ViewModel (MVVM) pattern. Bonus points for also using the Coordinator pattern.
 
 # Step 2
