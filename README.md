@@ -4,11 +4,12 @@ This is a coding challenge for iOS developers.
 
 # Prerequisites
 Candidate should have Xcode and Git installed on their machine.
-Candidate should download and install [SF Symbols](https://developer.apple.com/sf-symbols/).
 
 # Step 1
+Fork this repository and clone it.
+
 Create a new iOS Application "Weather App"
- * For the UI, you can use these mechanisms: Storyboards/XIBs, straight code, or SwiftUI.
+ * For the UI, you can use these mechanisms: Storyboards/XIBs, straight code, SwiftUI, or a combination of any.
  * Use the Model-View-ViewModel (MVVM) pattern. Bonus points for also using the Coordinator pattern.
 
 # Step 2
@@ -27,21 +28,21 @@ Please use the latitude and longitude of the following cities to fetch temperatu
 
 Use the images included in the `assets` folder for a visual indicator of the weather conditions. Any precipitation `>0.0` and `<1.0` should be considered *light rain*. Precipitation `>=1.0` should be considered *heavy rain*. No precipitation is *sunny*.
 
-Final output will look similar to the following image
+Here is a rough design for the sample app.
 
 ![weather app drawio](https://user-images.githubusercontent.com/1957407/206615131-5afcbb18-1d7e-4b38-b9f1-7f4b1333defd.png)
 
 
-# Functionalties 
+# Expected funtionality
 1. Fetch the current temperature for the three cities and list their current temperature, along with a rain or sun symbol as appropriate. 
-1. Using the segment control to switch Celcius and Farenheat 
+1. Using the a control at the top of the main screen, switch between Celcius and Farenheit. This control can be any type you choose.
 1. Clicking on a row will display the full weather report of the selected city for each hour of the day
-1. Celcius or Faranhet selected in view 1 should be carried to view 2
+1. The temperature system selected in view 1 should be carried to view 2.
 
 
 # Evaluation
-- Clean and readable code
-- Knowledge of MVVM, delegation, UI and navigation, fetching and parsing JSON data, git and dependency management
+- Clean, readable code
+- Knowledge of MVVM, delegation, UI and navigation, fetching and parsing JSON data, git.
 
 
 
