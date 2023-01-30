@@ -18,7 +18,7 @@ Use the [Open Weather API](https://openweathermap.org/api) to fetch weather deta
 
 `https://api.open-meteo.com/v1/forecast?latitude=40.71&longitude=-74.01&hourly=temperature_2m,rain`
 
-Please use the latitude and longitude of the following cities to fetch temperature and rainfall conditions every hour of the day.
+Please use the latitude and longitude of the following cities to fetch temperature and rainfall conditions every hour of the day. A day is considered to run from 00:00:00 through 23:59:59. Hours should be displayed in the app according to the device's time display option (_Settings->General->Date&Time->24-Hour Time_).
 
 | City | Lat  | Long |
 | ------- | --- | --- |
