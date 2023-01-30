@@ -7,9 +7,9 @@ Candidate should have Xcode and Git installed on their machine.
 
 
 # Step 1
- 1. Create a new iOS Application "Weather App"
- 1. For the UI, you can use these mechanisms: Storyboards/XIBs, straight code, or SwifUI.
- 1. Use the Model-View-ViewModel (MVVM) pattern. Bonus points for also using the Coordinator pattern.
+Create a new iOS Application "Weather App"
+ * For the UI, you can use these mechanisms: Storyboards/XIBs, straight code, or SwifUI.
+ * Use the Model-View-ViewModel (MVVM) pattern. Bonus points for also using the Coordinator pattern.
 
 # Step 2
 
