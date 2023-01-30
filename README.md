@@ -31,11 +31,10 @@ Final output will look similar to the following image
 
 
 # Functionalties 
-1. Fetch the temprature of any 3 cities and list their current templrate 
-2. If its currrently raining please show raining icon 
-3. Using the segment control to switch Celcius and Farenheat 
-4. Clicking on a row will display the full weather report of the selected city for each hour of the day
-5. Celcius or Faranhet selected in view 1 should be carried to view 2
+1. Fetch the current temperature for the three cities and list their current temperature, along with a rain or sun symbol as appropriate. 
+1. Using the segment control to switch Celcius and Farenheat 
+1. Clicking on a row will display the full weather report of the selected city for each hour of the day
+1. Celcius or Faranhet selected in view 1 should be carried to view 2
 
 
 # Evaluation
