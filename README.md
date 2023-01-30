@@ -1,22 +1,23 @@
 # iOS Coding Assignment
 
-This is a coding challenge for iOS developers to perform during the interview.  
+This is a coding challenge for iOS developers.  
 
 # Prerequisites
-Candidate should have Xcode and Git Installed in his machine 
+Candidate should have Xcode and Git installed on their machine.
 
 
 # Step 1
-Create a new iOS Application "Weather App"
-You can use Storyboard for the UI or build everything in code or even use SwiftUI.
-Use MVVM or Coordinator architecture 
+ 1. Create a new iOS Application "Weather App"
+ 1. For the UI, you can use these mechanisms: Storyboards/XIBs, straight code, or SwifUI.
+ 1. Use the Model-View-ViewModel (MVVM) pattern. Bonus points for also using the Coordinator pattern.
 
 # Step 2
 
-Use the Open Weather API to fetch weather details 
-https://api.open-meteo.com/v1/forecast?latitude=40.71&longitude=-74.01&hourly=temperature_2m,rain
+Use the [Open Weather API](https://openweathermap.org/api) to fetch weather details. Here is an example call requesting the hourly temperature and rainfall for the lat/long of New York City, NY.
 
-Please use follow cities, latitude and longitude to fetch temperature and rainy condition every hour of the day.
+`https://api.open-meteo.com/v1/forecast?latitude=40.71&longitude=-74.01&hourly=temperature_2m,rain`
+
+Please use the latitude and longitude of the following cities to fetch temperature and rainfall conditions every hour of the day.
 
 | City | Lat  | Long |
 | ------- | --- | --- |
