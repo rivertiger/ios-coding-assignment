@@ -44,5 +44,6 @@ Here is a rough design for the sample app.
 - Clean, readable code
 - Knowledge of MVVM, delegation, UI and navigation, fetching and parsing JSON data, git.
 
-# Acknowledgements
-Weather image assets <a href="http://www.freepik.com">designed by Anindyanfitri / Freepik</a>.
+
+
+
